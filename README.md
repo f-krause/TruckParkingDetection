@@ -2,7 +2,7 @@
 
 ![Starting Image](data/assets/start-image.png)
 
-This repository is based on a project conducted by Michael Fixl, Josef Hinterleitner, [Felix Krause](https://www.linkedin.com/in/felix-krause-7a643b222) und [Adrian Seiß](https://www.linkedin.com/in/adrian-sei%C3%9F) at the Vienna University of Economics and Business in collaboration with [Trustbit](trustbit.tech).
+This repository is based on a project conducted by Michael Fixl, Josef Hinterleitner, [Felix Krause](https://www.linkedin.com/in/felix-krause-7a643b222) und [Adrian Seiß](https://www.linkedin.com/in/adrian-sei%C3%9F) at the Vienna University of Economics and Business in collaboration with [Trustbit](https://trustbit.tech/).
 
 <br>
 The notebooks above fulfill to the following tasks:
