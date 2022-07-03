@@ -9,9 +9,9 @@ The notebooks above fulfill to the following tasks:
 
 0. Script to manually filter satellite images and labels based on a list of coordinates (GeoPandas)
 1. Combine several white- and blacklists from manual filtering to one csv containing coordinates and an id
-2. Create training data for object detection (XML file with pixel values of bounding box, not in this repo yet)
+2. Create training data for object detection (XML file with pixel values of bounding box; object detection not in this repo yet)
 3. Create training data for polygonal labels
-    1. Save information in one JSON (only necessary for image segmentation with e.g. Mask R-CNN, not in this repo yet)
+    1. Save information in one JSON (necessary for image segmentation with e.g. Mask R-CNN, not in this repo yet)
     2. Save information as masks (necessary for algorithms of [Segmentation Models API](https://github.com/qubvel/segmentation_models))
 4. Train image segmentation models (U-Net, Linknet, FPN and PSPNet) in a simple baseline setting
 5. Optimize the best performing model of notebook 4.
