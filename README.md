@@ -5,7 +5,7 @@
 This repository is based on a project conducted by Michael Fixl, Josef Hinterleitner, [Felix Krause](https://www.linkedin.com/in/felix-krause-7a643b222) und [Adrian Seiß](https://www.linkedin.com/in/adrian-sei%C3%9F) at the Vienna University of Economics and Business in collaboration with [Trustbit](trustbit.tech).
 
 <br>
-The notebooks cointained correspond to the following tasks:
+The notebooks above fulfill to the following tasks:
 
 0. Script to manually filter satellite images and labels based on a list of coordinates (GeoPandas)
 1. Combine several white- and blacklists from manual filtering to one csv containing coordinates and an id
