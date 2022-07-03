@@ -1,0 +1,22 @@
+1656859304731	geckodriver	INFO	Listening on 127.0.0.1:49956
+1656859307770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49957" "-no-remote" "-profile" "C:\\Users\\Felix\\AppData\\Local\\Temp\\rust_mozprofileojY9MJ"
+*** You are running in headless mode.
+1656859308302	Marionette	INFO	Marionette enabled
+1656859308310	Marionette	INFO	Listening on port 49962
+WebDriver BiDi listening on ws://localhost:49957
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Felix\\AppData\\Local\\Temp\\rust_mozprofileojY9MJ\\search.json.mozlz4", (void 0)))
+1656859308872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:49957/devtools/browser/b8a7e069-9d86-46c6-85be-a58d57d6ccd0
+1656859315070	Marionette	INFO	Stopped listening on port 49962
+1656859317576	geckodriver	INFO	Listening on 127.0.0.1:50020
+1656859320614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50021" "-no-remote" "-profile" "C:\\Users\\Felix\\AppData\\Local\\Temp\\rust_mozprofilesuOGeZ"
+*** You are running in headless mode.
+1656859320896	Marionette	INFO	Marionette enabled
+1656859320900	Marionette	INFO	Listening on port 50026
+WebDriver BiDi listening on ws://localhost:50021
+1656859321241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Felix\\AppData\\Local\\Temp\\rust_mozprofilesuOGeZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50021/devtools/browser/66d5e413-3de3-4e3e-9235-81b7995fe18a
+1656859326942	Marionette	INFO	Stopped listening on port 50026

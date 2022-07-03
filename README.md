@@ -14,7 +14,7 @@ The notebooks cointained correspond to the following tasks:
     1. Save information in one JSON (only necessary for image segmentation with e.g. Mask R-CNN, not in this repo yet)
     2. Save information as masks (necessary for algorithms of [Segmentation Models API](https://github.com/qubvel/segmentation_models))
 4. Train image segmentation models (U-Net, Linknet, FPN and PSPNet) in a simple baseline setting
-5. Training to fine-tune the best performing model of 4.
+5. Optimize the best performing model of notebook 4.
 
 <br>
 
