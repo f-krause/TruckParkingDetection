@@ -1,4 +1,4 @@
-# TruckParkingDetection
+# ReadMe
 
 ![Starting Image](start-image.png)
 
@@ -15,6 +15,10 @@ The notebooks cointained correspond to the following tasks:
     2. Save information as masks
 4. Train image segmentation models (U-Net, Linknet, FPN and PSPNet) in a simple baseline setting
 5. Training to fine-tune the best performing model of 4.
+
+<br>
+
+![Segmentation Sample](segmentation1.png)
 
 <br>
 
