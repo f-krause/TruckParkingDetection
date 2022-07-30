@@ -1,5 +1,8 @@
-"""Model saving utilities.
+
+"""Model saving utilities for keras.
+Slightly adapted in order to achieve comparability with newer Python versions
 """
+
 from __future__ import print_function
 from __future__ import absolute_import
 from __future__ import division

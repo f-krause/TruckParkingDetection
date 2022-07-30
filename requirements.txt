@@ -8,3 +8,5 @@ segmentation-models
 matplotlib
 Pillow
 scikit-learn
+folium
+opencv-python
