@@ -15,6 +15,7 @@ The notebooks above perform the following tasks:
     2. Save information as masks (necessary for algorithms of [Segmentation Models API](https://github.com/qubvel/segmentation_models))
 4. Train image segmentation models (U-Net, Linknet, FPN and PSPNet) in a simple baseline setting
 5. Optimize the best performing model of notebook 4.
+6. Final function, where one can enter coordinates (of a parking lot), and the function returns the (visual) parking lot prediction for this location
 
 <br>
 
