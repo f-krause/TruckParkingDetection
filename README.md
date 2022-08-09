@@ -16,6 +16,7 @@ The notebooks above perform the following tasks:
 4. Train image segmentation models (U-Net, Linknet, FPN and PSPNet) in a simple baseline setting
 5. Optimize the best performing model of notebook 4.
 6. Final function, where one can enter coordinates (of a parking lot), and the function returns the (visual) parking lot prediction for this location
+7. Final function but for public use (only one interactive code chunk)
 
 <br>
 
