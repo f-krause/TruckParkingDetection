@@ -140,7 +140,7 @@ display(widgets.HTML(
 
 #print("Generate Prediction for Custom Coordinates")
 interact_generate = interact_manual.options(manual_name="Get Prediction")
-@interact_generate(latitude="48.18516", longitude="15.79659")
+@interact_generate(latitude="48.13867", longitude="14.58055")
 
 def inter_pred(latitude, longitude):
     check_coord_format((latitude, longitude))
@@ -152,7 +152,7 @@ interact_random = interact_manual.options(manual_name="Random Parking Lot")
 @interact_random()
 
 def set_values():
-    gps_r = gps_directory[np.random.randint(0,12)]
+    gps_r = gps_directory[np.random.randint(4,12)]
     lt_r = str(gps_r[0])
     lg_r = str(gps_r[1])
     return inter_pred(lt_r, lg_r)
