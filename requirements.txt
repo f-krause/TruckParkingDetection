@@ -10,3 +10,6 @@ Pillow
 scikit-learn
 folium
 opencv-python
+geckodriver_autoinstaller
+selenium
+webdriver-manager
