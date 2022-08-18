@@ -5,7 +5,7 @@
 ######################################
 
 # Copied from: https://blog.ouseful.info/2019/03/24/screengrabs-using-selenium-in-mybinder/ (18.08.2022)
-
+FROM python:3.9-slim
 RUN pip install --no-cache-dir notebook jupyterlab
 
  
