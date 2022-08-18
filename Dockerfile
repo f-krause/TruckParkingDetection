@@ -4,8 +4,35 @@
 # relevant for average user!
 ######################################
 
-# Copied from: https://blog.ouseful.info/2019/03/24/screengrabs-using-selenium-in-mybinder/ (18.08.2022)
+FROM python:3.9-slim
+RUN pip install --no-cache-dir notebook jupyterlab
 
+ 
+#We need to install some Linux packages
+ARG NB_USER=jovyan
+ARG NB_UID=1000
+ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
+ENV HOME /home/${NB_USER}
+
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+
+WORKDIR ${HOME}
+
+# Make sure the contents of our repo are in ${HOME}
+COPY . ${HOME}
+USER root
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
+
+#docker run <image> jupyter notebook --NotebookApp.default_url=/lab/ <arguments from the mybinder launcher>
+
+
+
+# Copied from: https://blog.ouseful.info/2019/03/24/screengrabs-using-selenium-in-mybinder/ (18.08.2022)
 
 #Use a base Jupyter notebook container
 FROM jupyter/base-notebook
