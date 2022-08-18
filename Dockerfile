@@ -4,7 +4,8 @@
 # relevant for average user!
 ######################################
 
-FROM ubuntu:18.04
+# Note that there must be a tag
+FROM jupyter/scipy-notebook:cf6258237ff9
 
 RUN python3 -m pip install --no-cache-dir notebook jupyterlab
 
