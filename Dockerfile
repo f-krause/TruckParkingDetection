@@ -38,11 +38,11 @@ USER ${NB_USER}
 FROM jupyter/base-notebook
 
 #Using Selenium to automate a firefox or chrome browser needs geckodriver in place
-ARG GECKO_VAR=v0.31.0
-RUN wget https://github.com/mozilla/geckodriver/releases/download/$GECKO_VAR/geckodriver-$GECKO_VAR-linux64.tar.gz
-RUN tar -x geckodriver -zf geckodriver-$GECKO_VAR-linux64.tar.gz -O > /geckodriver
-RUN chmod +x /geckodriver
-RUN rm geckodriver-$GECKO_VAR-linux64.tar.gz
+#ARG GECKO_VAR=v0.31.0
+#RUN wget https://github.com/mozilla/geckodriver/releases/download/$GECKO_VAR/geckodriver-$GECKO_VAR-linux64.tar.gz
+#RUN tar -x geckodriver -zf geckodriver-$GECKO_VAR-linux64.tar.gz -O > /usr/bin/geckodriver
+#RUN chmod +x /usr/bin/geckodriver
+#RUN rm geckodriver-$GECKO_VAR-linux64.tar.gz
  
 #Install packages required to allow us to use eg firefox in a headless way
 #https://www.kaggle.com/dierickx3/kaggle-web-scraping-via-headless-firefox-selenium
