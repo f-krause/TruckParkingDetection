@@ -20,6 +20,7 @@ RUN adduser --disabled-password \
     --uid ${NB_UID} \
     ${NB_USER}
 
+WORKDIR ${HOME}
 
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
