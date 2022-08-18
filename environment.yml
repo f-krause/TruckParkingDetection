@@ -6,7 +6,7 @@
 
 # Copied from: https://blog.ouseful.info/2019/03/24/screengrabs-using-selenium-in-mybinder/ (18.08.2022)
 
-RUN python3 -m pip install --no-cache-dir notebook jupyterlab
+RUN pip install --no-cache-dir notebook jupyterlab
 
  
 #We need to install some Linux packages
@@ -20,14 +20,17 @@ RUN adduser --disabled-password \
     --gecos "Default user" \
     --uid ${NB_UID} \
     ${NB_USER}
- 
+ WORKDIR ${HOME}
+
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 
-docker run <image> jupyter notebook --NotebookApp.default_url=/lab/ <arguments from the mybinder launcher>
+#docker run <image> jupyter notebook --NotebookApp.default_url=/lab/ <arguments from the mybinder launcher>
+
+
 
 #Use a base Jupyter notebook container
 FROM jupyter/base-notebook
