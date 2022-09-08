@@ -27,7 +27,7 @@ The notebooks above perform the following tasks:
 Data sources and references:
 
 - Coordinate data from OpenStreetMap
-- Satellite imagery from the Esri satellite, [World Imagery](https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9#!)
+- Satellite imagery from Esri, [World Imagery](https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9#!) (Image sources: Esri, Maxar, Earthstar Geographics, CNES/Airbus DS, and the GIS User Community)
 - Code snippets from Dr. Vadim Savenkov
 - Image segmentation training notebooks adapted from [Dr. Sreenivas Bhattiprolu](https://github.com/bnsreenu/python_for_microscopists/tree/master/228_semantic_segmentation_of_aerial_imagery_using_unet)
 - Image segmentation models via [Segmentation Models API](https://github.com/qubvel/segmentation_models)
