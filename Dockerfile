@@ -4,6 +4,9 @@
 # relevant for average user!
 ######################################
 
+# Check https://github.com/binder-examples/minimal-dockerfile
+# https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
+
 # Note that there must be a tag
 FROM jupyter/scipy-notebook:cf6258237ff9
 
