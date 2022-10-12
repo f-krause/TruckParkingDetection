@@ -11,11 +11,11 @@ The notebooks above perform the following tasks:
 1. Combine several white- and blacklists from manual filtering to one csv containing coordinates and an unique id
 2. Create training data for object detection (XML file with pixel values of bounding box; object detection not in this repo yet)
 3. Create training data for polygonal labels
-    1. Save information in one JSON (necessary for instance segmentation with e.g. Mask R-CNN, not included in this repo)
+    1. Save information in one JSON (necessary for instance segmentation with for example Mask R-CNN)
     2. Save information as masks (necessary for algorithms of [Segmentation Models API](https://github.com/qubvel/segmentation_models))
 4. Train image segmentation models (U-Net, Linknet, FPN and PSPNet) in a simple baseline setting
 5. Optimize the best performing model of notebook 4.
-6. Final function, where one can enter coordinates (of a parking lot), and the function returns the (visual) parking lot prediction for this location
+6. Final function, where one can enter coordinates (of a parking lot), and the function returns the parking lot prediction mask for this location
 7. Final function but for public use (only one interactive code chunk)
 
 <br>
@@ -34,4 +34,4 @@ Data sources and references:
 
 <br>
 
-Please conform to the license applied.
+Please conform to the license applied. Image rights 
