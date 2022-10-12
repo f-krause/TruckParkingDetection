@@ -34,4 +34,4 @@ Data sources and references:
 
 <br>
 
-Please conform to the license applied. Image rights 
+Please conform to the license applied.
