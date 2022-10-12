@@ -1,6 +1,6 @@
 geopandas
-keras
 tensorflow
+keras
 keras_applications
 image-classifiers
 efficientnet
