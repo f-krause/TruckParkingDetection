@@ -7,7 +7,7 @@ This repository is based on a project conducted by Michael Fixl, Josef Hinterlei
 <br>
 The notebooks above perform the following tasks:
 
-0. Script to manually filter satellite images and labels based on a list of coordinates (of GeoPandas polygon type)
+0. Script to manually filter satellite images and labels based on a list of coordinates (of GeoPandas polygon type; coordinates of truck parking lots can be extracted from OpenStreetMap, e.g. via Google BigQuery)
 1. Combine several white- and blacklists from manual filtering to one csv containing coordinates and an unique id
 2. Create training data for object detection (XML file with pixel values of bounding box; object detection not in this repo yet)
 3. Create training data for polygonal labels
